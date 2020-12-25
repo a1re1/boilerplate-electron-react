@@ -1,0 +1,53 @@
+header.TitleBar {
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: #0A0A0A;
+    color: black;
+    align-self: stretch;
+    -webkit-app-region: drag;
+}
+
+#TitleBar {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background: black;
+    align-items: center;
+}
+
+#close {
+    background: #0A0A0A;
+}
+
+#close:hover {
+    background: red;
+}
+
+#maximize {
+    background: #0A0A0A;
+}
+
+#maximize:hover {
+    background: #272727;
+}
+
+#minimize {
+    background: #0A0A0A;
+}
+
+#minimize:hover {
+    background: #272727;
+}
+
+.option {
+    color: white;
+    padding: 4px 17px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+    
+}
